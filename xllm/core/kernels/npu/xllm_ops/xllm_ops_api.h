@@ -35,6 +35,14 @@ limitations under the License.
 namespace xllm::kernel::npu {
 inline constexpr int64_t kDsaMetadataBufferElements = 1024;
 
+std::tuple<torch::Tensor, torch::Tensor> dual_affine_layer_norm(
+    const torch::Tensor& x,
+    const torch::Tensor& gamma1,
+    const torch::Tensor& beta1,
+    const torch::Tensor& gamma2,
+    const torch::Tensor& beta2,
+    double epsilon = 1e-5);
+
 namespace op_infer {
 constexpr int32_t N = 32;
 // npu tensor max size
