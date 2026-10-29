@@ -3,6 +3,9 @@
 
 default_install_hook_types: [pre-commit, commit-msg]
 
+# Preserve the supplied acceptance fixtures and archived evidence byte-for-byte.
+exclude: ^(task_public_tests/|task_submission/|task_submission_artifacts/)
+
 repos:
 - repo: https://github.com/astral-sh/ruff-pre-commit
   rev: v0.14.0

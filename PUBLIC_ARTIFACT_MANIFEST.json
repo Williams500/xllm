@@ -1,0 +1,21 @@
+{
+  "installer": {
+    "file": "artifacts/custom_opp_aarch64.run",
+    "original_sha256": "8cf269ceb734b5ade10f8a03e4dd73cf050570a009b8ed3d15bd6548d9e0524d",
+    "distributed_sha256": "69a35e30f6da638c6ce97e6432acab27d001f4c714cd544a8ffcfb50921c2f8a",
+    "payload_sha256": "19d602c49e0dd965ba7582d837f484041985d8e1a85a1a1f165a92a0df21f2f7",
+    "change": "The informational build-command text in the shell header differs from the original package. Archive payload and executable installation logic are unchanged."
+  },
+  "other_artifacts": [
+    {
+      "file": "artifacts/libt5_direct.so",
+      "sha256": "6b639617f74c8ed0bb25ac069ba7c5a2c747ef6f75cf217d4c77fa099c524aa6",
+      "bytes_unchanged": true
+    },
+    {
+      "file": "artifacts/aclnn_example",
+      "sha256": "d52cf54728c1d3fa4ef1107087500e673864750c1bace72196718674cab47774",
+      "bytes_unchanged": true
+    }
+  ]
+}

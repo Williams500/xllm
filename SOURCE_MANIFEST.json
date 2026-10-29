@@ -1,0 +1,179 @@
+{
+  "hardware": "910C",
+  "repositories": {
+    "xllm": {
+      "base": "fea4d5d6a3f46b37b3703262be182e0579914103",
+      "validated_commit": "486321403764fc5f2b32496c1f0df4b8df46b4e1",
+      "upstream": "https://github.com/xLLM-AI/xllm.git"
+    },
+    "xllm_ops": {
+      "base": "1f8583ca85721eacd3eb73dd4188de0cae2d97db",
+      "validated_commit": "b7e3a978825792912d2d4cb7858872d657ffdcae",
+      "upstream": "https://gitcode.com/xLLM-AI/xllm_ops.git"
+    }
+  },
+  "files": [
+    {
+      "repository": "xllm",
+      "path": "xllm/core/kernels/npu/xllm_ops/CMakeLists.txt",
+      "git_blob": "fa41a65166a2c6165e59c45c431cd29440b14f50",
+      "sha256": "d1886cfe457d71a9565b4a285f072b5f2c89584ec040a13cd0f5f6049f32e1c6"
+    },
+    {
+      "repository": "xllm",
+      "path": "xllm/core/kernels/npu/xllm_ops/t5_split_qkv_append_cache.cpp",
+      "git_blob": "bdb43eda3e830feb40049e257c16dee9255ef7db",
+      "sha256": "b09bb4442ebd538752a2981f84186b3fe00e0a9ab9459cce948fd8dfcbd87bfc"
+    },
+    {
+      "repository": "xllm",
+      "path": "xllm/core/kernels/npu/xllm_ops/xllm_ops_api.h",
+      "git_blob": "c9ab55fd64b3a3276bdf300797c864a0436bbadb",
+      "sha256": "dcfccb6580cd37f48ed9510704ec7a571a71961c6de8b1a58f38d6fe61ec56b3"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/.gitignore",
+      "git_blob": "02ef1745fe4099ccaa02d7dcbf227b5ed8e5ff98",
+      "sha256": "f6e9e717bbdada033622ba32f970ea4dc03e76965782e1465d1ddbcaa3c0e5fb"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/CMakeLists.txt",
+      "git_blob": "272cf5edb256097beda72448f435b3076cb869d1",
+      "sha256": "c9b2fa4b28252df1cc2b1b1537b6e9cb5b491f0c9fc898d8b3de1cf801f94aea"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/DESIGN.md",
+      "git_blob": "26b291544b5b56aac024ad0972fa78a9153953c6",
+      "sha256": "2f606dd647af7440672a11356e1d4bece2f2237f30b7bd1e2cde1a4eb746673c"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/README.md",
+      "git_blob": "1c4892c48f82a28b5982ea29867dd2e3e1eae3a1",
+      "sha256": "7cbc1135569e7a78a724594b91e20837fa6f044ad90b075c357e94c428043f1c"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/build_private.sh",
+      "git_blob": "4c95a5bc2f27e4d42acef99861a527e19fcee4d5",
+      "sha256": "2859d6343cd44657f91939b64d36d7382330d451835cb49da34f6d4d64923c01"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/direct/CMakeLists.txt",
+      "git_blob": "6bb83f399d51cd0f45087bd70cec63be0ed11ec8",
+      "sha256": "aad4c79353b24c7be35dc4350ae3b0652db7f99c710a6801ec56a50dd0c7a36b"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/direct/direct_kernel.cpp",
+      "git_blob": "cbcd76616d50bd63513f5b0be4e2a751a1212629",
+      "sha256": "7dd6d74e0cdbc2a5a5f120f7c1258827d22444e8fc4c7d0c8cac6c856ec18b69"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/examples/aclnn_example.cpp",
+      "git_blob": "ef64ea023b51b837d3a92e54fb6570c9a1fa84d9",
+      "sha256": "a21952eef25696cdd28385c2a7e8b1664b292d4314cabf6e8f7c8f7a1572f892"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/framework/cache_policy.h",
+      "git_blob": "d03871a9f06b42eaa3e1e5f4786bc47e7c4cfebd",
+      "sha256": "edb98ef201ab7fc0e0dbcdf3ca91af8686258dcb469b2fa1932a86e2a609b7be"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/install_private.sh",
+      "git_blob": "b027367fc4758dd69f3aec25a08334478781db95",
+      "sha256": "53525568aa2dc3be550dc8919204994f805a31c12e8089bd85339984c544244d"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/op_host/CMakeLists.txt",
+      "git_blob": "e60675fad26dd544dcdda69a0b065e90bd1a289b",
+      "sha256": "c7c5d4a934f1de6f8696bf6586aa41a49becf1f6a03595beabc011d07097322c"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/op_host/t5_split_qkv_append_cache_def.cpp",
+      "git_blob": "2ca297b1d29fad405866acadc49bd3ff4ec54d66",
+      "sha256": "071b1223af7f728ad2376c47467abb7af220ba7cfaa75b85a383f86561032649"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/op_host/t5_split_qkv_append_cache_proto.cpp",
+      "git_blob": "7a68b05387651b64deab14e85ab975e12758f362",
+      "sha256": "49bc50213fb7b56f7a210ac392963f30b49eddfe80ce23013e5a488987a32027"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/op_host/t5_split_qkv_append_cache_tiling.cpp",
+      "git_blob": "a99fe144cf838bc2de62e8bc63770fab59505e03",
+      "sha256": "40831cf5d01961671a103d208007be3d6b80b5fee962484d8d04147b22fdcea7"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/op_host/t5_split_qkv_append_cache_tiling.h",
+      "git_blob": "e9f6135bd6f5e111dd3632b0675e68ca4412c770",
+      "sha256": "b2611e40d084d1ddfe7b0da73ef6cb25ee6d0a1272ba75332b73c4895229a5ab"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/op_kernel/t5_split_qkv_append_cache.cpp",
+      "git_blob": "afd13f52b89398b828ce848cc4fb5b7a0665ed1a",
+      "sha256": "19be2c008b77e6f38542ce45c0bf98b90a3ea3c8ba20027ab9e46bb04e97e168"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/op_kernel/t5_split_qkv_append_cache.h",
+      "git_blob": "5ff0e58f4c336ccc39801c9a8e9bff9fa3c3a211",
+      "sha256": "f18ad0102d3a5d7288b8fa1018a64a4d4d498b355d97b986c4e4eb14918f0469"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/python/acl_tensor_descriptor.h",
+      "git_blob": "c5d05e68cce146ca3d354c6dbac3080d8aab1639",
+      "sha256": "8db8d52d2a231917326883e63e212b645b990e57376bb49b0bf971fa5c9d9cd1"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/python/binding.cpp",
+      "git_blob": "d7c6c422bb5361b77df4598127de52e5cf885ec0",
+      "sha256": "6ac871bef9554a4fa3065c4b2e528327e23d409f3996e95a749194697998c585"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/python/setup.py",
+      "git_blob": "bb304271912d0e87117855cbd7a8b9846126c229",
+      "sha256": "648739898b3989329715a480b17080222e12321622df22e3e15efe14abc03646"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/python/solution.py",
+      "git_blob": "783a6a48f1889188b1d75aef83965ca6fda40927",
+      "sha256": "5669d3937ee8d9748bc510bbc90759a826de27398e441f8cbffc3962dd511f7f"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/tests/cache_policy.py",
+      "git_blob": "bd93818e51f442ec3ec8d11f8fbdff5ee1ade734",
+      "sha256": "4d7cbf2482b686d8865e2235e046b34e5f340307ac1b6e80d1cf15e2d5954e1c"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/tests/engineering.py",
+      "git_blob": "09f84c132d2802e27d6c0a5ed16c9cb22e7e0213",
+      "sha256": "e09ebfe574d9e4b4d885becdcad004be122684b79fe0795f0ef67a873e4233a6"
+    },
+    {
+      "repository": "xllm_ops",
+      "path": "xllm_ops/t5_split_qkv_append_cache/tests/run_validation.sh",
+      "git_blob": "a46a75234628551d4f568f9b836ee906dcc76d42",
+      "sha256": "32cb5a5c5ebbf4a2cffd64da181537542a58e5e10fef668a42db052d947addf4"
+    }
+  ]
+}

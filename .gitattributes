@@ -1,0 +1,6 @@
+/task_submission_artifacts/* binary
+/task_public_tests/** -text
+/task_submission/** -text
+/PUBLIC_ARTIFACT_MANIFEST.json -text
+/SOURCE_MANIFEST.json -text
+/evidence-public.json -text

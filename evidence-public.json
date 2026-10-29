@@ -1,0 +1,242 @@
+{
+  "xllm_commit": "486321403764fc5f2b32496c1f0df4b8df46b4e1",
+  "xllm_ops_commit": "b7e3a978825792912d2d4cb7858872d657ffdcae",
+  "source_files": [
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/.gitignore",
+      "git_blob": "02ef1745fe4099ccaa02d7dcbf227b5ed8e5ff98",
+      "actual_git_blob": "02ef1745fe4099ccaa02d7dcbf227b5ed8e5ff98",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "f6e9e717bbdada033622ba32f970ea4dc03e76965782e1465d1ddbcaa3c0e5fb",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/CMakeLists.txt",
+      "git_blob": "272cf5edb256097beda72448f435b3076cb869d1",
+      "actual_git_blob": "272cf5edb256097beda72448f435b3076cb869d1",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "c9b2fa4b28252df1cc2b1b1537b6e9cb5b491f0c9fc898d8b3de1cf801f94aea",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/DESIGN.md",
+      "git_blob": "26b291544b5b56aac024ad0972fa78a9153953c6",
+      "actual_git_blob": "26b291544b5b56aac024ad0972fa78a9153953c6",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "2f606dd647af7440672a11356e1d4bece2f2237f30b7bd1e2cde1a4eb746673c",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/README.md",
+      "git_blob": "1c4892c48f82a28b5982ea29867dd2e3e1eae3a1",
+      "actual_git_blob": "1c4892c48f82a28b5982ea29867dd2e3e1eae3a1",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "7cbc1135569e7a78a724594b91e20837fa6f044ad90b075c357e94c428043f1c",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/build_private.sh",
+      "git_blob": "4c95a5bc2f27e4d42acef99861a527e19fcee4d5",
+      "actual_git_blob": "4c95a5bc2f27e4d42acef99861a527e19fcee4d5",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "2859d6343cd44657f91939b64d36d7382330d451835cb49da34f6d4d64923c01",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/direct/CMakeLists.txt",
+      "git_blob": "6bb83f399d51cd0f45087bd70cec63be0ed11ec8",
+      "actual_git_blob": "6bb83f399d51cd0f45087bd70cec63be0ed11ec8",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "aad4c79353b24c7be35dc4350ae3b0652db7f99c710a6801ec56a50dd0c7a36b",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/direct/direct_kernel.cpp",
+      "git_blob": "cbcd76616d50bd63513f5b0be4e2a751a1212629",
+      "actual_git_blob": "cbcd76616d50bd63513f5b0be4e2a751a1212629",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "b25a0c4ed1e9fe0d2b1eeffc7cc3791c350dc00c55f80b02ffc6c1fe521a2bc4",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/examples/aclnn_example.cpp",
+      "git_blob": "ef64ea023b51b837d3a92e54fb6570c9a1fa84d9",
+      "actual_git_blob": "ef64ea023b51b837d3a92e54fb6570c9a1fa84d9",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "a21952eef25696cdd28385c2a7e8b1664b292d4314cabf6e8f7c8f7a1572f892",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/framework/cache_policy.h",
+      "git_blob": "d03871a9f06b42eaa3e1e5f4786bc47e7c4cfebd",
+      "actual_git_blob": "d03871a9f06b42eaa3e1e5f4786bc47e7c4cfebd",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "edb98ef201ab7fc0e0dbcdf3ca91af8686258dcb469b2fa1932a86e2a609b7be",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/install_private.sh",
+      "git_blob": "b027367fc4758dd69f3aec25a08334478781db95",
+      "actual_git_blob": "b027367fc4758dd69f3aec25a08334478781db95",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "53525568aa2dc3be550dc8919204994f805a31c12e8089bd85339984c544244d",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/op_host/CMakeLists.txt",
+      "git_blob": "e60675fad26dd544dcdda69a0b065e90bd1a289b",
+      "actual_git_blob": "e60675fad26dd544dcdda69a0b065e90bd1a289b",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "c7c5d4a934f1de6f8696bf6586aa41a49becf1f6a03595beabc011d07097322c",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/op_host/t5_split_qkv_append_cache_def.cpp",
+      "git_blob": "2ca297b1d29fad405866acadc49bd3ff4ec54d66",
+      "actual_git_blob": "2ca297b1d29fad405866acadc49bd3ff4ec54d66",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "071b1223af7f728ad2376c47467abb7af220ba7cfaa75b85a383f86561032649",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/op_host/t5_split_qkv_append_cache_proto.cpp",
+      "git_blob": "7a68b05387651b64deab14e85ab975e12758f362",
+      "actual_git_blob": "7a68b05387651b64deab14e85ab975e12758f362",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "49bc50213fb7b56f7a210ac392963f30b49eddfe80ce23013e5a488987a32027",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/op_host/t5_split_qkv_append_cache_tiling.cpp",
+      "git_blob": "a99fe144cf838bc2de62e8bc63770fab59505e03",
+      "actual_git_blob": "a99fe144cf838bc2de62e8bc63770fab59505e03",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "b7d740c01362ba2ce03aca36ad03de7a4d174fe0394e785342855b7e3f85a43e",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/op_host/t5_split_qkv_append_cache_tiling.h",
+      "git_blob": "e9f6135bd6f5e111dd3632b0675e68ca4412c770",
+      "actual_git_blob": "e9f6135bd6f5e111dd3632b0675e68ca4412c770",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "aafc3907611e354b608f9ed196bd89b51ee8e21215c29f340526ed3793f2a290",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/op_kernel/t5_split_qkv_append_cache.cpp",
+      "git_blob": "afd13f52b89398b828ce848cc4fb5b7a0665ed1a",
+      "actual_git_blob": "afd13f52b89398b828ce848cc4fb5b7a0665ed1a",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "5001418aa301b9b813393334c06b3ee9b422cec247761491cddd945f33b85733",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/op_kernel/t5_split_qkv_append_cache.h",
+      "git_blob": "5ff0e58f4c336ccc39801c9a8e9bff9fa3c3a211",
+      "actual_git_blob": "5ff0e58f4c336ccc39801c9a8e9bff9fa3c3a211",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "3467b42f969fcc7e7e14ea361e420f1e85c8dedaa3391a28212b4488365f3b0e",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/python/acl_tensor_descriptor.h",
+      "git_blob": "c5d05e68cce146ca3d354c6dbac3080d8aab1639",
+      "actual_git_blob": "c5d05e68cce146ca3d354c6dbac3080d8aab1639",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "8db8d52d2a231917326883e63e212b645b990e57376bb49b0bf971fa5c9d9cd1",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/python/binding.cpp",
+      "git_blob": "d7c6c422bb5361b77df4598127de52e5cf885ec0",
+      "actual_git_blob": "d7c6c422bb5361b77df4598127de52e5cf885ec0",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "7efd8c9b790f202a2fc0c92e864379084aa4f09130574569ebfe83d142e9c20a",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/python/setup.py",
+      "git_blob": "bb304271912d0e87117855cbd7a8b9846126c229",
+      "actual_git_blob": "bb304271912d0e87117855cbd7a8b9846126c229",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "648739898b3989329715a480b17080222e12321622df22e3e15efe14abc03646",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/python/solution.py",
+      "git_blob": "783a6a48f1889188b1d75aef83965ca6fda40927",
+      "actual_git_blob": "783a6a48f1889188b1d75aef83965ca6fda40927",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "5669d3937ee8d9748bc510bbc90759a826de27398e441f8cbffc3962dd511f7f",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/tests/cache_policy.py",
+      "git_blob": "bd93818e51f442ec3ec8d11f8fbdff5ee1ade734",
+      "actual_git_blob": "bd93818e51f442ec3ec8d11f8fbdff5ee1ade734",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "4d7cbf2482b686d8865e2235e046b34e5f340307ac1b6e80d1cf15e2d5954e1c",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/tests/engineering.py",
+      "git_blob": "09f84c132d2802e27d6c0a5ed16c9cb22e7e0213",
+      "actual_git_blob": "09f84c132d2802e27d6c0a5ed16c9cb22e7e0213",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "e09ebfe574d9e4b4d885becdcad004be122684b79fe0795f0ef67a873e4233a6",
+      "matched": true
+    },
+    {
+      "path": "third_party/xllm_ops/xllm_ops/t5_split_qkv_append_cache/tests/run_validation.sh",
+      "git_blob": "a46a75234628551d4f568f9b836ee906dcc76d42",
+      "actual_git_blob": "a46a75234628551d4f568f9b836ee906dcc76d42",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "32cb5a5c5ebbf4a2cffd64da181537542a58e5e10fef668a42db052d947addf4",
+      "matched": true
+    },
+    {
+      "path": "xllm/core/kernels/npu/xllm_ops/CMakeLists.txt",
+      "git_blob": "fa41a65166a2c6165e59c45c431cd29440b14f50",
+      "actual_git_blob": "fa41a65166a2c6165e59c45c431cd29440b14f50",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "f3fdfaf6c5d96c2085fbe5c819d0044952c501cab7a3506828760f8db79a8172",
+      "matched": true
+    },
+    {
+      "path": "xllm/core/kernels/npu/xllm_ops/t5_split_qkv_append_cache.cpp",
+      "git_blob": "bdb43eda3e830feb40049e257c16dee9255ef7db",
+      "actual_git_blob": "bdb43eda3e830feb40049e257c16dee9255ef7db",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "b09bb4442ebd538752a2981f84186b3fe00e0a9ab9459cce948fd8dfcbd87bfc",
+      "matched": true
+    },
+    {
+      "path": "xllm/core/kernels/npu/xllm_ops/xllm_ops_api.h",
+      "git_blob": "c9ab55fd64b3a3276bdf300797c864a0436bbadb",
+      "actual_git_blob": "c9ab55fd64b3a3276bdf300797c864a0436bbadb",
+      "git_blob_normalization": "CRLF to LF for tracked text sources",
+      "sha256": "0cd627c1bfb8e541089dd4757147e10bf77c8601311a1c5cce90884e78ae1eca",
+      "matched": true
+    }
+  ],
+  "hardware": "910C",
+  "environment_details": "Hardware: 910C; OS and driver differ from the specified environment; specified image not verified.",
+  "qualification": "系统、驱动与指定镜像存在差异，已在实际环境复验；指定镜像未验证。",
+  "artifacts": [
+    {
+      "kind": "ACLNN package",
+      "bytes": 231254,
+      "sha256": "8cf269ceb734b5ade10f8a03e4dd73cf050570a009b8ed3d15bd6548d9e0524d"
+    },
+    {
+      "kind": "Direct kernel library",
+      "bytes": 402504,
+      "sha256": "6b639617f74c8ed0bb25ac069ba7c5a2c747ef6f75cf217d4c77fa099c524aa6"
+    },
+    {
+      "kind": "Python binding",
+      "bytes": 11491448,
+      "sha256": "5c9ffaa55f282be1982736ab578af8a538bd48d566fc4a1c60d18722938d534d"
+    }
+  ]
+}

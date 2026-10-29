@@ -1,0 +1,8819 @@
+Validation hardware: 910C.
+OS and driver differ from the specified image; retested on the actual environment; specified image not verified.
+Test cases, measurements, thresholds, outcomes, warnings and exit codes are preserved.
+
+===== SOURCE: descriptor-cache/accuracy.log =====
+[W1029 04:38:40.697389596 NPUCachingAllocator.cpp:202] Warning: The current CANN and HDK(driver) versions require processing for 32 padding size, with memory allocation. (function operator())
+{
+  "case_name": "T5SplitQkvAppendCache_000_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_001_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_002_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 30,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 90,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 90,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_003_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 1680,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 53760,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 53760,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_004_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 390,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 49920,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 49920,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_005_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 512,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 66048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 66048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_006_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 6144,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 3151872,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 3151872,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_007_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 16384,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 33570816,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 33570816,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_008_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1048704,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1048704,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_009_float16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 65664,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 65664,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_010_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_011_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_012_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 30,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 90,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 90,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_013_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 1680,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 53760,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 53760,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_014_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 390,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 49920,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 49920,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_015_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 512,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 66048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 66048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_016_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 6144,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 3151872,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 3151872,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_017_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 16384,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 33570816,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 33570816,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_018_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1048704,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1048704,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_019_bfloat16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 65664,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 65664,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_020_float16_boundary",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_021_float16_boundary",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 32640,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 130560,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 130560,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_022_float16_boundary",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 6,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 24588,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 24588,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_023_bfloat16_boundary",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_024_bfloat16_boundary",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 32640,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 130560,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 130560,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_025_bfloat16_boundary",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 6,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 24588,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 24588,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_026_float16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_027_float16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 256,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097408,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097408,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_028_float16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 1530,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 97920,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 97920,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_029_float16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 256,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 256,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_030_bfloat16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_031_bfloat16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 256,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097408,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097408,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_032_bfloat16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 1530,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 97920,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 97920,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_033_bfloat16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 256,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 256,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_034_float16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 132120576,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 132120576,
+      "bit_mismatches": 0
+    }
+  ]
+}
+
+
+===== SOURCE: descriptor-cache/accuracy.json =====
+{
+  "status": "passed",
+  "npu_executed": true,
+  "cases": [
+    {
+      "case_name": "T5SplitQkvAppendCache_000_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_001_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_002_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 30,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 90,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 90,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_003_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 1680,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 53760,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 53760,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_004_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 390,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 49920,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 49920,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_005_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 512,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 66048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 66048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_006_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 6144,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 3151872,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 3151872,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_007_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 16384,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 33570816,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 33570816,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_008_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1048704,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1048704,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_009_float16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 65664,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 65664,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_010_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_011_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_012_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 30,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 90,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 90,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_013_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 1680,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 53760,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 53760,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_014_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 390,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 49920,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 49920,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_015_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 512,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 66048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 66048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_016_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 6144,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 3151872,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 3151872,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_017_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 16384,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 33570816,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 33570816,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_018_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1048704,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1048704,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_019_bfloat16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 65664,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 65664,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_020_float16_boundary",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_021_float16_boundary",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 32640,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 130560,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 130560,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_022_float16_boundary",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 6,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 24588,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 24588,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_023_bfloat16_boundary",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_024_bfloat16_boundary",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 32640,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 130560,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 130560,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_025_bfloat16_boundary",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 6,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 24588,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 24588,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_026_float16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_027_float16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 256,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097408,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097408,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_028_float16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 1530,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 97920,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 97920,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_029_float16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 256,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 256,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_030_bfloat16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_031_bfloat16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 256,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097408,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097408,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_032_bfloat16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 1530,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 97920,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 97920,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_033_bfloat16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 256,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 256,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_034_float16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 132120576,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 132120576,
+          "bit_mismatches": 0
+        }
+      ]
+    }
+  ]
+}
+
+
+===== SOURCE: descriptor-cache/accuracy.exit =====
+0
+
+
+===== SOURCE: descriptor-cache/engineering.log =====
+[W1029 04:38:56.827455690 NPUCachingAllocator.cpp:202] Warning: The current CANN and HDK(driver) versions require processing for 32 padding size, with memory allocation. (function operator())
+{
+  "case_name": "T5SplitQkvAppendCache_000_float16_random",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_001_float16_random",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_002_float16_random",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 30,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 90,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 90,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_003_float16_random",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 1680,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 53760,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 53760,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_004_float16_random",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 390,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 49920,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 49920,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_005_float16_random",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 512,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 66048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 66048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_006_float16_random",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 6144,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 3151872,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 3151872,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_007_float16_random",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 16384,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 33570816,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 33570816,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_008_float16_random",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1048704,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1048704,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_009_float16_bits",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 65664,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 65664,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_010_bfloat16_random",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_011_bfloat16_random",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_012_bfloat16_random",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 30,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 90,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 90,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_013_bfloat16_random",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 1680,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 53760,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 53760,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_014_bfloat16_random",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 390,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 49920,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 49920,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_015_bfloat16_random",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 512,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 66048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 66048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_016_bfloat16_random",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 6144,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 3151872,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 3151872,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_017_bfloat16_random",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 16384,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 33570816,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 33570816,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_018_bfloat16_random",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1048704,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1048704,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_019_bfloat16_bits",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 65664,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 65664,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_020_float16_boundary",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_021_float16_boundary",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 32640,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 130560,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 130560,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_022_float16_boundary",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 6,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 24588,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 24588,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_023_bfloat16_boundary",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_024_bfloat16_boundary",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 32640,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 130560,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 130560,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_025_bfloat16_boundary",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 6,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 24588,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 24588,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_026_float16_bits",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_027_float16_bits",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 256,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097408,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097408,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_028_float16_bits",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 1530,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 97920,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 97920,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_029_float16_bits",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 256,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 256,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_030_bfloat16_bits",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_031_bfloat16_bits",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 256,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097408,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097408,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_032_bfloat16_bits",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 1530,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 97920,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 97920,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_033_bfloat16_bits",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 256,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 256,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_034_float16_bits",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 132120576,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 132120576,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_000_float16_random__extra_seed_0",
+  "entry": "run",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_000_float16_random__extra_seed_0",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_001_float16_random__extra_seed_1",
+  "entry": "run",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_001_float16_random__extra_seed_1",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_002_float16_random__extra_seed_2",
+  "entry": "run",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 30,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 90,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 90,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_002_float16_random__extra_seed_2",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 30,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 90,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 90,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_002_float16_random__extra_seed_6",
+  "entry": "run",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 30,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 90,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 90,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_002_float16_random__extra_seed_6",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 30,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 90,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 90,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_002_float16_random__extra_seed_7",
+  "entry": "run",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 30,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 90,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 90,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_002_float16_random__extra_seed_7",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 30,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 90,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 90,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_002_float16_random__extra_seed_8",
+  "entry": "run",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 30,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 90,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 90,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_002_float16_random__extra_seed_8",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 30,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 90,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 90,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_003_float16_random__extra_seed_3",
+  "entry": "run",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 1680,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 53760,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 53760,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_003_float16_random__extra_seed_3",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 1680,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 53760,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 53760,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_004_float16_random__extra_seed_4",
+  "entry": "run",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 390,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 49920,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 49920,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_004_float16_random__extra_seed_4",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 390,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 49920,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 49920,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_005_float16_random__extra_seed_5",
+  "entry": "run",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 512,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 66048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 66048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_005_float16_random__extra_seed_5",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 512,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 66048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 66048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_009_float16_bits__extra_seed_9",
+  "entry": "run",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 65664,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 65664,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_009_float16_bits__extra_seed_9",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 65664,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 65664,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_010_bfloat16_random__extra_seed_10",
+  "entry": "run",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_010_bfloat16_random__extra_seed_10",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_011_bfloat16_random__extra_seed_11",
+  "entry": "run",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_011_bfloat16_random__extra_seed_11",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "attributes_type",
+  "entry": "run",
+  "status": "passed",
+  "checks": "attributes must be a dictionary"
+}
+{
+  "case_name": "attributes_type",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "attributes must be a dictionary"
+}
+{
+  "case_name": "attributes_type",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "attributes must be a dictionary"
+}
+{
+  "case_name": "cache_dtype",
+  "entry": "run",
+  "status": "passed",
+  "checks": "inputs must have matching device, dtype and contiguous layout"
+}
+{
+  "case_name": "cache_dtype",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "inputs must have matching device, dtype and contiguous layout"
+}
+{
+  "case_name": "cache_dtype",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "inputs must have matching device, dtype and contiguous layout"
+}
+{
+  "case_name": "cache_mismatch",
+  "entry": "run",
+  "status": "passed",
+  "checks": "invalid input rank or cache shape"
+}
+{
+  "case_name": "cache_mismatch",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "invalid input rank or cache shape"
+}
+{
+  "case_name": "cache_mismatch",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "invalid input rank or cache shape"
+}
+{
+  "case_name": "cache_rank",
+  "entry": "run",
+  "status": "passed",
+  "checks": "invalid input rank or cache shape"
+}
+{
+  "case_name": "cache_rank",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "invalid input rank or cache shape"
+}
+{
+  "case_name": "cache_rank",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "invalid input rank or cache shape"
+}
+{
+  "case_name": "cpu_input",
+  "entry": "run",
+  "status": "passed",
+  "checks": "qkv must be an FP16 or BF16 NPU tensor"
+}
+{
+  "case_name": "cpu_input",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "qkv must be an FP16 or BF16 NPU tensor"
+}
+{
+  "case_name": "cpu_input",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "qkv must be an FP16 or BF16 NPU tensor"
+}
+{
+  "case_name": "float32",
+  "entry": "run",
+  "status": "passed",
+  "checks": "qkv must be an FP16 or BF16 NPU tensor"
+}
+{
+  "case_name": "float32",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "qkv must be an FP16 or BF16 NPU tensor"
+}
+{
+  "case_name": "float32",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "qkv must be an FP16 or BF16 NPU tensor"
+}
+{
+  "case_name": "headDim_'8'",
+  "entry": "run",
+  "status": "passed",
+  "checks": "headNum and headDim must be integers"
+}
+{
+  "case_name": "headDim_'8'",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "headNum and headDim must be integers"
+}
+{
+  "case_name": "headDim_'8'",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "headNum and headDim must be integers"
+}
+{
+  "case_name": "headDim_-1",
+  "entry": "run",
+  "status": "passed",
+  "checks": "attribute does not match tensor shape: headDim"
+}
+{
+  "case_name": "headDim_-1",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "attribute does not match tensor shape: headDim"
+}
+{
+  "case_name": "headDim_-1",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "attribute does not match tensor shape: headDim"
+}
+{
+  "case_name": "headDim_0",
+  "entry": "run",
+  "status": "passed",
+  "checks": "attribute does not match tensor shape: headDim"
+}
+{
+  "case_name": "headDim_0",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "attribute does not match tensor shape: headDim"
+}
+{
+  "case_name": "headDim_0",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "attribute does not match tensor shape: headDim"
+}
+{
+  "case_name": "headDim_1.5",
+  "entry": "run",
+  "status": "passed",
+  "checks": "headNum and headDim must be integers"
+}
+{
+  "case_name": "headDim_1.5",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "headNum and headDim must be integers"
+}
+{
+  "case_name": "headDim_1.5",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "headNum and headDim must be integers"
+}
+{
+  "case_name": "headDim_65",
+  "entry": "run",
+  "status": "passed",
+  "checks": "attribute does not match tensor shape: headDim"
+}
+{
+  "case_name": "headDim_65",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "attribute does not match tensor shape: headDim"
+}
+{
+  "case_name": "headDim_65",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "attribute does not match tensor shape: headDim"
+}
+{
+  "case_name": "headDim_True",
+  "entry": "run",
+  "status": "passed",
+  "checks": "headNum and headDim must be integers"
+}
+{
+  "case_name": "headDim_True",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "headNum and headDim must be integers"
+}
+{
+  "case_name": "headDim_True",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "headNum and headDim must be integers"
+}
+{
+  "case_name": "headNum_'8'",
+  "entry": "run",
+  "status": "passed",
+  "checks": "headNum and headDim must be integers"
+}
+{
+  "case_name": "headNum_'8'",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "headNum and headDim must be integers"
+}
+{
+  "case_name": "headNum_'8'",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "headNum and headDim must be integers"
+}
+{
+  "case_name": "headNum_-1",
+  "entry": "run",
+  "status": "passed",
+  "checks": "attribute does not match tensor shape: headNum"
+}
+{
+  "case_name": "headNum_-1",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "attribute does not match tensor shape: headNum"
+}
+{
+  "case_name": "headNum_-1",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "attribute does not match tensor shape: headNum"
+}
+{
+  "case_name": "headNum_0",
+  "entry": "run",
+  "status": "passed",
+  "checks": "attribute does not match tensor shape: headNum"
+}
+{
+  "case_name": "headNum_0",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "attribute does not match tensor shape: headNum"
+}
+{
+  "case_name": "headNum_0",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "attribute does not match tensor shape: headNum"
+}
+{
+  "case_name": "headNum_1.5",
+  "entry": "run",
+  "status": "passed",
+  "checks": "headNum and headDim must be integers"
+}
+{
+  "case_name": "headNum_1.5",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "headNum and headDim must be integers"
+}
+{
+  "case_name": "headNum_1.5",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "headNum and headDim must be integers"
+}
+{
+  "case_name": "headNum_9",
+  "entry": "run",
+  "status": "passed",
+  "checks": "attribute does not match tensor shape: headNum"
+}
+{
+  "case_name": "headNum_9",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "attribute does not match tensor shape: headNum"
+}
+{
+  "case_name": "headNum_9",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "attribute does not match tensor shape: headNum"
+}
+{
+  "case_name": "headNum_True",
+  "entry": "run",
+  "status": "passed",
+  "checks": "headNum and headDim must be integers"
+}
+{
+  "case_name": "headNum_True",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "headNum and headDim must be integers"
+}
+{
+  "case_name": "headNum_True",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "headNum and headDim must be integers"
+}
+[W1029 04:39:06.133638034 ToKernelNpu.cpp:40] Warning: Device do not support double dtype now, dtype cast replace with float. (function operator())
+{
+  "case_name": "input_count",
+  "entry": "run",
+  "status": "passed",
+  "checks": "run(): incompatible function arguments. The following argument types are supported:\n    1. (arg0: typing.Annotated[collections.abc.Sequence[torch.Tensor], \"FixedSize(3)\"], arg1: object) -> tuple\n\nInvoked with: [tensor([[[-0.4426, -0.2537,  0.2891,  ...,  1.0117, -0.9585, -1.3291]],\n\n        [[ 0.6006,  1.2520, -0.1025,  ...,  0.0967,  1.1016, -0.3647]],\n\n        [[ 0.9844, -1.3057,  1.9648,  ...,  0.1115, -0.3591, -1.3662]],\n\n        [[ 0.3699,  0.3354, -0.3513,  ..., -0.6489,  0.0646,  0.9458]]"
+}
+{
+  "case_name": "input_count",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "run_direct(): incompatible function arguments. The following argument types are supported:\n    1. (arg0: typing.Annotated[collections.abc.Sequence[torch.Tensor], \"FixedSize(3)\"], arg1: object) -> tuple\n\nInvoked with: [tensor([[[-0.4426, -0.2537,  0.2891,  ...,  1.0117, -0.9585, -1.3291]],\n\n        [[ 0.6006,  1.2520, -0.1025,  ...,  0.0967,  1.1016, -0.3647]],\n\n        [[ 0.9844, -1.3057,  1.9648,  ...,  0.1115, -0.3591, -1.3662]],\n\n        [[ 0.3699,  0.3354, -0.3513,  ..., -0.6489,  0.0646,  0"
+}
+{
+  "case_name": "input_count",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "prepare(): incompatible function arguments. The following argument types are supported:\n    1. (arg0: typing.Annotated[collections.abc.Sequence[torch.Tensor], \"FixedSize(3)\"], arg1: object) -> collections.abc.Callable\n\nInvoked with: [tensor([[[-0.4426, -0.2537,  0.2891,  ...,  1.0117, -0.9585, -1.3291]],\n\n        [[ 0.6006,  1.2520, -0.1025,  ...,  0.0967,  1.1016, -0.3647]],\n\n        [[ 0.9844, -1.3057,  1.9648,  ...,  0.1115, -0.3591, -1.3662]],\n\n        [[ 0.3699,  0.3354, -0.3513,  ..., -0.6"
+}
+{
+  "case_name": "noncontiguous",
+  "entry": "run",
+  "status": "passed",
+  "checks": "inputs must have matching device, dtype and contiguous layout"
+}
+{
+  "case_name": "noncontiguous",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "inputs must have matching device, dtype and contiguous layout"
+}
+{
+  "case_name": "noncontiguous",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "inputs must have matching device, dtype and contiguous layout"
+}
+{
+  "case_name": "packed_mismatch",
+  "entry": "run",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "packed_mismatch",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "packed_mismatch",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "packed_tokens",
+  "entry": "run",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "packed_tokens",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "packed_tokens",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "shape_limit_(0, 1, 0, 1)",
+  "entry": "run",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "shape_limit_(0, 1, 0, 1)",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "shape_limit_(0, 1, 0, 1)",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "shape_limit_(1, 1, 0, 257)",
+  "entry": "run",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "shape_limit_(1, 1, 0, 257)",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "shape_limit_(1, 1, 0, 257)",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "shape_limit_(1, 1, 8193, 1)",
+  "entry": "run",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "shape_limit_(1, 1, 8193, 1)",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "shape_limit_(1, 1, 8193, 1)",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "shape_limit_(1, 129, 0, 1)",
+  "entry": "run",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "shape_limit_(1, 129, 0, 1)",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "shape_limit_(1, 129, 0, 1)",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "shape_limit_(65, 1, 0, 1)",
+  "entry": "run",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "shape_limit_(65, 1, 0, 1)",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "shape_limit_(65, 1, 0, 1)",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "input dimensions exceed the operator contract"
+}
+{
+  "case_name": "unknown_attribute",
+  "entry": "run",
+  "status": "passed",
+  "checks": "unknown attribute: unknown"
+}
+{
+  "case_name": "unknown_attribute",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": "unknown attribute: unknown"
+}
+{
+  "case_name": "unknown_attribute",
+  "entry": "prepare",
+  "status": "passed",
+  "checks": "unknown attribute: unknown"
+}
+{
+  "case_name": "T5SplitQkvAppendCache_001_float16_random__memory",
+  "entry": "run",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 12288,
+    "peak_increment": 13824,
+    "before": 12800,
+    "after": 12800
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_001_float16_random__memory",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 12288,
+    "peak_increment": 13824,
+    "before": 12800,
+    "after": 12800
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_005_float16_random__memory",
+  "entry": "run",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 265216,
+    "peak_increment": 266752,
+    "before": 266752,
+    "after": 266752
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_005_float16_random__memory",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 265216,
+    "peak_increment": 266752,
+    "before": 266752,
+    "after": 266752
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_006_float16_random__memory",
+  "entry": "run",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 12619776,
+    "peak_increment": 12621312,
+    "before": 12621312,
+    "after": 12621312
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_006_float16_random__memory",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 12619776,
+    "peak_increment": 12621312,
+    "before": 12621312,
+    "after": 12621312
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_007_float16_random__memory",
+  "entry": "run",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 134316032,
+    "peak_increment": 134317568,
+    "before": 134317568,
+    "after": 134317568
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_007_float16_random__memory",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 134316032,
+    "peak_increment": 134317568,
+    "before": 134317568,
+    "after": 134317568
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_008_float16_random__memory",
+  "entry": "run",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 4195072,
+    "peak_increment": 4195840,
+    "before": 4196352,
+    "after": 4196352
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_008_float16_random__memory",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 4195072,
+    "peak_increment": 4195840,
+    "before": 4196352,
+    "after": 4196352
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_011_bfloat16_random__memory",
+  "entry": "run",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 12288,
+    "peak_increment": 13824,
+    "before": 12800,
+    "after": 12800
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_011_bfloat16_random__memory",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 12288,
+    "peak_increment": 13824,
+    "before": 12800,
+    "after": 12800
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_015_bfloat16_random__memory",
+  "entry": "run",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 265216,
+    "peak_increment": 266752,
+    "before": 266752,
+    "after": 266752
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_015_bfloat16_random__memory",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 265216,
+    "peak_increment": 266752,
+    "before": 266752,
+    "after": 266752
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_016_bfloat16_random__memory",
+  "entry": "run",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 12619776,
+    "peak_increment": 12621312,
+    "before": 12621312,
+    "after": 12621312
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_016_bfloat16_random__memory",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 12619776,
+    "peak_increment": 12621312,
+    "before": 12621312,
+    "after": 12621312
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_017_bfloat16_random__memory",
+  "entry": "run",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 134316032,
+    "peak_increment": 134317568,
+    "before": 134317568,
+    "after": 134317568
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_017_bfloat16_random__memory",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 134316032,
+    "peak_increment": 134317568,
+    "before": 134317568,
+    "after": 134317568
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_018_bfloat16_random__memory",
+  "entry": "run",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 4195072,
+    "peak_increment": 4195840,
+    "before": 4196352,
+    "after": 4196352
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_018_bfloat16_random__memory",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": {
+    "output_bytes": 4195072,
+    "peak_increment": 4195840,
+    "before": 4196352,
+    "after": 4196352
+  }
+}
+{
+  "case_name": "independent_streams",
+  "entry": "run",
+  "status": "passed",
+  "checks": {
+    "streams": 2,
+    "calls_per_stream": 10
+  }
+}
+{
+  "case_name": "output_and_input_lifecycle",
+  "entry": "run",
+  "status": "passed",
+  "checks": {
+    "retained_calls": 8,
+    "released_output_calls": 32,
+    "input_pressure_calls": 32
+  }
+}
+{
+  "case_name": "output_and_input_lifecycle",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": {
+    "retained_calls": 8,
+    "released_output_calls": 32,
+    "input_pressure_calls": 32
+  }
+}
+{
+  "case_name": "sequential_append",
+  "entry": "run",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 1680,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 55440,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 55440,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "sequential_append",
+  "entry": "run_direct",
+  "status": "passed",
+  "checks": [
+    {
+      "output": "query",
+      "elements": 1680,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 55440,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 55440,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "verifier_cpu",
+  "entry": "verifier",
+  "status": "passed",
+  "checks": "outputs must be on the input NPU device"
+}
+{
+  "case_name": "verifier_input_alias",
+  "entry": "verifier",
+  "status": "passed",
+  "checks": "output shares storage with input or another output"
+}
+{
+  "case_name": "verifier_storage_alias",
+  "entry": "verifier",
+  "status": "passed",
+  "checks": "output shares storage with input or another output"
+}
+
+
+===== SOURCE: descriptor-cache/engineering.json =====
+{
+  "status": "passed",
+  "npu_executed": true,
+  "records": [
+    {
+      "case_name": "T5SplitQkvAppendCache_000_float16_random",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_001_float16_random",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_002_float16_random",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 30,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 90,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 90,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_003_float16_random",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 1680,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 53760,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 53760,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_004_float16_random",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 390,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 49920,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 49920,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_005_float16_random",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 512,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 66048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 66048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_006_float16_random",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 6144,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 3151872,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 3151872,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_007_float16_random",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 16384,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 33570816,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 33570816,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_008_float16_random",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1048704,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1048704,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_009_float16_bits",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 65664,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 65664,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_010_bfloat16_random",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_011_bfloat16_random",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_012_bfloat16_random",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 30,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 90,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 90,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_013_bfloat16_random",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 1680,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 53760,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 53760,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_014_bfloat16_random",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 390,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 49920,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 49920,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_015_bfloat16_random",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 512,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 66048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 66048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_016_bfloat16_random",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 6144,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 3151872,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 3151872,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_017_bfloat16_random",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 16384,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 33570816,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 33570816,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_018_bfloat16_random",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1048704,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1048704,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_019_bfloat16_bits",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 65664,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 65664,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_020_float16_boundary",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_021_float16_boundary",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 32640,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 130560,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 130560,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_022_float16_boundary",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 6,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 24588,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 24588,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_023_bfloat16_boundary",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_024_bfloat16_boundary",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 32640,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 130560,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 130560,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_025_bfloat16_boundary",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 6,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 24588,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 24588,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_026_float16_bits",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_027_float16_bits",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 256,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097408,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097408,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_028_float16_bits",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 1530,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 97920,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 97920,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_029_float16_bits",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 256,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 256,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_030_bfloat16_bits",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_031_bfloat16_bits",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 256,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097408,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097408,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_032_bfloat16_bits",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 1530,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 97920,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 97920,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_033_bfloat16_bits",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 256,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 256,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_034_float16_bits",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 132120576,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 132120576,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_000_float16_random__extra_seed_0",
+      "entry": "run",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_000_float16_random__extra_seed_0",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_001_float16_random__extra_seed_1",
+      "entry": "run",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_001_float16_random__extra_seed_1",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_002_float16_random__extra_seed_2",
+      "entry": "run",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 30,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 90,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 90,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_002_float16_random__extra_seed_2",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 30,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 90,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 90,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_002_float16_random__extra_seed_6",
+      "entry": "run",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 30,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 90,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 90,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_002_float16_random__extra_seed_6",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 30,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 90,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 90,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_002_float16_random__extra_seed_7",
+      "entry": "run",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 30,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 90,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 90,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_002_float16_random__extra_seed_7",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 30,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 90,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 90,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_002_float16_random__extra_seed_8",
+      "entry": "run",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 30,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 90,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 90,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_002_float16_random__extra_seed_8",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 30,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 90,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 90,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_003_float16_random__extra_seed_3",
+      "entry": "run",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 1680,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 53760,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 53760,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_003_float16_random__extra_seed_3",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 1680,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 53760,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 53760,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_004_float16_random__extra_seed_4",
+      "entry": "run",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 390,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 49920,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 49920,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_004_float16_random__extra_seed_4",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 390,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 49920,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 49920,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_005_float16_random__extra_seed_5",
+      "entry": "run",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 512,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 66048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 66048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_005_float16_random__extra_seed_5",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 512,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 66048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 66048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_009_float16_bits__extra_seed_9",
+      "entry": "run",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 65664,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 65664,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_009_float16_bits__extra_seed_9",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 65664,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 65664,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_010_bfloat16_random__extra_seed_10",
+      "entry": "run",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_010_bfloat16_random__extra_seed_10",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_011_bfloat16_random__extra_seed_11",
+      "entry": "run",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_011_bfloat16_random__extra_seed_11",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "attributes_type",
+      "entry": "run",
+      "status": "passed",
+      "checks": "attributes must be a dictionary"
+    },
+    {
+      "case_name": "attributes_type",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "attributes must be a dictionary"
+    },
+    {
+      "case_name": "attributes_type",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "attributes must be a dictionary"
+    },
+    {
+      "case_name": "cache_dtype",
+      "entry": "run",
+      "status": "passed",
+      "checks": "inputs must have matching device, dtype and contiguous layout"
+    },
+    {
+      "case_name": "cache_dtype",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "inputs must have matching device, dtype and contiguous layout"
+    },
+    {
+      "case_name": "cache_dtype",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "inputs must have matching device, dtype and contiguous layout"
+    },
+    {
+      "case_name": "cache_mismatch",
+      "entry": "run",
+      "status": "passed",
+      "checks": "invalid input rank or cache shape"
+    },
+    {
+      "case_name": "cache_mismatch",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "invalid input rank or cache shape"
+    },
+    {
+      "case_name": "cache_mismatch",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "invalid input rank or cache shape"
+    },
+    {
+      "case_name": "cache_rank",
+      "entry": "run",
+      "status": "passed",
+      "checks": "invalid input rank or cache shape"
+    },
+    {
+      "case_name": "cache_rank",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "invalid input rank or cache shape"
+    },
+    {
+      "case_name": "cache_rank",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "invalid input rank or cache shape"
+    },
+    {
+      "case_name": "cpu_input",
+      "entry": "run",
+      "status": "passed",
+      "checks": "qkv must be an FP16 or BF16 NPU tensor"
+    },
+    {
+      "case_name": "cpu_input",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "qkv must be an FP16 or BF16 NPU tensor"
+    },
+    {
+      "case_name": "cpu_input",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "qkv must be an FP16 or BF16 NPU tensor"
+    },
+    {
+      "case_name": "float32",
+      "entry": "run",
+      "status": "passed",
+      "checks": "qkv must be an FP16 or BF16 NPU tensor"
+    },
+    {
+      "case_name": "float32",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "qkv must be an FP16 or BF16 NPU tensor"
+    },
+    {
+      "case_name": "float32",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "qkv must be an FP16 or BF16 NPU tensor"
+    },
+    {
+      "case_name": "headDim_'8'",
+      "entry": "run",
+      "status": "passed",
+      "checks": "headNum and headDim must be integers"
+    },
+    {
+      "case_name": "headDim_'8'",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "headNum and headDim must be integers"
+    },
+    {
+      "case_name": "headDim_'8'",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "headNum and headDim must be integers"
+    },
+    {
+      "case_name": "headDim_-1",
+      "entry": "run",
+      "status": "passed",
+      "checks": "attribute does not match tensor shape: headDim"
+    },
+    {
+      "case_name": "headDim_-1",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "attribute does not match tensor shape: headDim"
+    },
+    {
+      "case_name": "headDim_-1",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "attribute does not match tensor shape: headDim"
+    },
+    {
+      "case_name": "headDim_0",
+      "entry": "run",
+      "status": "passed",
+      "checks": "attribute does not match tensor shape: headDim"
+    },
+    {
+      "case_name": "headDim_0",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "attribute does not match tensor shape: headDim"
+    },
+    {
+      "case_name": "headDim_0",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "attribute does not match tensor shape: headDim"
+    },
+    {
+      "case_name": "headDim_1.5",
+      "entry": "run",
+      "status": "passed",
+      "checks": "headNum and headDim must be integers"
+    },
+    {
+      "case_name": "headDim_1.5",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "headNum and headDim must be integers"
+    },
+    {
+      "case_name": "headDim_1.5",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "headNum and headDim must be integers"
+    },
+    {
+      "case_name": "headDim_65",
+      "entry": "run",
+      "status": "passed",
+      "checks": "attribute does not match tensor shape: headDim"
+    },
+    {
+      "case_name": "headDim_65",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "attribute does not match tensor shape: headDim"
+    },
+    {
+      "case_name": "headDim_65",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "attribute does not match tensor shape: headDim"
+    },
+    {
+      "case_name": "headDim_True",
+      "entry": "run",
+      "status": "passed",
+      "checks": "headNum and headDim must be integers"
+    },
+    {
+      "case_name": "headDim_True",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "headNum and headDim must be integers"
+    },
+    {
+      "case_name": "headDim_True",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "headNum and headDim must be integers"
+    },
+    {
+      "case_name": "headNum_'8'",
+      "entry": "run",
+      "status": "passed",
+      "checks": "headNum and headDim must be integers"
+    },
+    {
+      "case_name": "headNum_'8'",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "headNum and headDim must be integers"
+    },
+    {
+      "case_name": "headNum_'8'",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "headNum and headDim must be integers"
+    },
+    {
+      "case_name": "headNum_-1",
+      "entry": "run",
+      "status": "passed",
+      "checks": "attribute does not match tensor shape: headNum"
+    },
+    {
+      "case_name": "headNum_-1",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "attribute does not match tensor shape: headNum"
+    },
+    {
+      "case_name": "headNum_-1",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "attribute does not match tensor shape: headNum"
+    },
+    {
+      "case_name": "headNum_0",
+      "entry": "run",
+      "status": "passed",
+      "checks": "attribute does not match tensor shape: headNum"
+    },
+    {
+      "case_name": "headNum_0",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "attribute does not match tensor shape: headNum"
+    },
+    {
+      "case_name": "headNum_0",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "attribute does not match tensor shape: headNum"
+    },
+    {
+      "case_name": "headNum_1.5",
+      "entry": "run",
+      "status": "passed",
+      "checks": "headNum and headDim must be integers"
+    },
+    {
+      "case_name": "headNum_1.5",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "headNum and headDim must be integers"
+    },
+    {
+      "case_name": "headNum_1.5",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "headNum and headDim must be integers"
+    },
+    {
+      "case_name": "headNum_9",
+      "entry": "run",
+      "status": "passed",
+      "checks": "attribute does not match tensor shape: headNum"
+    },
+    {
+      "case_name": "headNum_9",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "attribute does not match tensor shape: headNum"
+    },
+    {
+      "case_name": "headNum_9",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "attribute does not match tensor shape: headNum"
+    },
+    {
+      "case_name": "headNum_True",
+      "entry": "run",
+      "status": "passed",
+      "checks": "headNum and headDim must be integers"
+    },
+    {
+      "case_name": "headNum_True",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "headNum and headDim must be integers"
+    },
+    {
+      "case_name": "headNum_True",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "headNum and headDim must be integers"
+    },
+    {
+      "case_name": "input_count",
+      "entry": "run",
+      "status": "passed",
+      "checks": "run(): incompatible function arguments. The following argument types are supported:\n    1. (arg0: typing.Annotated[collections.abc.Sequence[torch.Tensor], \"FixedSize(3)\"], arg1: object) -> tuple\n\nInvoked with: [tensor([[[-0.4426, -0.2537,  0.2891,  ...,  1.0117, -0.9585, -1.3291]],\n\n        [[ 0.6006,  1.2520, -0.1025,  ...,  0.0967,  1.1016, -0.3647]],\n\n        [[ 0.9844, -1.3057,  1.9648,  ...,  0.1115, -0.3591, -1.3662]],\n\n        [[ 0.3699,  0.3354, -0.3513,  ..., -0.6489,  0.0646,  0.9458]]"
+    },
+    {
+      "case_name": "input_count",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "run_direct(): incompatible function arguments. The following argument types are supported:\n    1. (arg0: typing.Annotated[collections.abc.Sequence[torch.Tensor], \"FixedSize(3)\"], arg1: object) -> tuple\n\nInvoked with: [tensor([[[-0.4426, -0.2537,  0.2891,  ...,  1.0117, -0.9585, -1.3291]],\n\n        [[ 0.6006,  1.2520, -0.1025,  ...,  0.0967,  1.1016, -0.3647]],\n\n        [[ 0.9844, -1.3057,  1.9648,  ...,  0.1115, -0.3591, -1.3662]],\n\n        [[ 0.3699,  0.3354, -0.3513,  ..., -0.6489,  0.0646,  0"
+    },
+    {
+      "case_name": "input_count",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "prepare(): incompatible function arguments. The following argument types are supported:\n    1. (arg0: typing.Annotated[collections.abc.Sequence[torch.Tensor], \"FixedSize(3)\"], arg1: object) -> collections.abc.Callable\n\nInvoked with: [tensor([[[-0.4426, -0.2537,  0.2891,  ...,  1.0117, -0.9585, -1.3291]],\n\n        [[ 0.6006,  1.2520, -0.1025,  ...,  0.0967,  1.1016, -0.3647]],\n\n        [[ 0.9844, -1.3057,  1.9648,  ...,  0.1115, -0.3591, -1.3662]],\n\n        [[ 0.3699,  0.3354, -0.3513,  ..., -0.6"
+    },
+    {
+      "case_name": "noncontiguous",
+      "entry": "run",
+      "status": "passed",
+      "checks": "inputs must have matching device, dtype and contiguous layout"
+    },
+    {
+      "case_name": "noncontiguous",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "inputs must have matching device, dtype and contiguous layout"
+    },
+    {
+      "case_name": "noncontiguous",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "inputs must have matching device, dtype and contiguous layout"
+    },
+    {
+      "case_name": "packed_mismatch",
+      "entry": "run",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "packed_mismatch",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "packed_mismatch",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "packed_tokens",
+      "entry": "run",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "packed_tokens",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "packed_tokens",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "shape_limit_(0, 1, 0, 1)",
+      "entry": "run",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "shape_limit_(0, 1, 0, 1)",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "shape_limit_(0, 1, 0, 1)",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "shape_limit_(1, 1, 0, 257)",
+      "entry": "run",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "shape_limit_(1, 1, 0, 257)",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "shape_limit_(1, 1, 0, 257)",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "shape_limit_(1, 1, 8193, 1)",
+      "entry": "run",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "shape_limit_(1, 1, 8193, 1)",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "shape_limit_(1, 1, 8193, 1)",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "shape_limit_(1, 129, 0, 1)",
+      "entry": "run",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "shape_limit_(1, 129, 0, 1)",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "shape_limit_(1, 129, 0, 1)",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "shape_limit_(65, 1, 0, 1)",
+      "entry": "run",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "shape_limit_(65, 1, 0, 1)",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "shape_limit_(65, 1, 0, 1)",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "input dimensions exceed the operator contract"
+    },
+    {
+      "case_name": "unknown_attribute",
+      "entry": "run",
+      "status": "passed",
+      "checks": "unknown attribute: unknown"
+    },
+    {
+      "case_name": "unknown_attribute",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": "unknown attribute: unknown"
+    },
+    {
+      "case_name": "unknown_attribute",
+      "entry": "prepare",
+      "status": "passed",
+      "checks": "unknown attribute: unknown"
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_001_float16_random__memory",
+      "entry": "run",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 12288,
+        "peak_increment": 13824,
+        "before": 12800,
+        "after": 12800
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_001_float16_random__memory",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 12288,
+        "peak_increment": 13824,
+        "before": 12800,
+        "after": 12800
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_005_float16_random__memory",
+      "entry": "run",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 265216,
+        "peak_increment": 266752,
+        "before": 266752,
+        "after": 266752
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_005_float16_random__memory",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 265216,
+        "peak_increment": 266752,
+        "before": 266752,
+        "after": 266752
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_006_float16_random__memory",
+      "entry": "run",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 12619776,
+        "peak_increment": 12621312,
+        "before": 12621312,
+        "after": 12621312
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_006_float16_random__memory",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 12619776,
+        "peak_increment": 12621312,
+        "before": 12621312,
+        "after": 12621312
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_007_float16_random__memory",
+      "entry": "run",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 134316032,
+        "peak_increment": 134317568,
+        "before": 134317568,
+        "after": 134317568
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_007_float16_random__memory",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 134316032,
+        "peak_increment": 134317568,
+        "before": 134317568,
+        "after": 134317568
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_008_float16_random__memory",
+      "entry": "run",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 4195072,
+        "peak_increment": 4195840,
+        "before": 4196352,
+        "after": 4196352
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_008_float16_random__memory",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 4195072,
+        "peak_increment": 4195840,
+        "before": 4196352,
+        "after": 4196352
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_011_bfloat16_random__memory",
+      "entry": "run",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 12288,
+        "peak_increment": 13824,
+        "before": 12800,
+        "after": 12800
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_011_bfloat16_random__memory",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 12288,
+        "peak_increment": 13824,
+        "before": 12800,
+        "after": 12800
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_015_bfloat16_random__memory",
+      "entry": "run",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 265216,
+        "peak_increment": 266752,
+        "before": 266752,
+        "after": 266752
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_015_bfloat16_random__memory",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 265216,
+        "peak_increment": 266752,
+        "before": 266752,
+        "after": 266752
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_016_bfloat16_random__memory",
+      "entry": "run",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 12619776,
+        "peak_increment": 12621312,
+        "before": 12621312,
+        "after": 12621312
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_016_bfloat16_random__memory",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 12619776,
+        "peak_increment": 12621312,
+        "before": 12621312,
+        "after": 12621312
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_017_bfloat16_random__memory",
+      "entry": "run",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 134316032,
+        "peak_increment": 134317568,
+        "before": 134317568,
+        "after": 134317568
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_017_bfloat16_random__memory",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 134316032,
+        "peak_increment": 134317568,
+        "before": 134317568,
+        "after": 134317568
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_018_bfloat16_random__memory",
+      "entry": "run",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 4195072,
+        "peak_increment": 4195840,
+        "before": 4196352,
+        "after": 4196352
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_018_bfloat16_random__memory",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": {
+        "output_bytes": 4195072,
+        "peak_increment": 4195840,
+        "before": 4196352,
+        "after": 4196352
+      }
+    },
+    {
+      "case_name": "independent_streams",
+      "entry": "run",
+      "status": "passed",
+      "checks": {
+        "streams": 2,
+        "calls_per_stream": 10
+      }
+    },
+    {
+      "case_name": "output_and_input_lifecycle",
+      "entry": "run",
+      "status": "passed",
+      "checks": {
+        "retained_calls": 8,
+        "released_output_calls": 32,
+        "input_pressure_calls": 32
+      }
+    },
+    {
+      "case_name": "output_and_input_lifecycle",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": {
+        "retained_calls": 8,
+        "released_output_calls": 32,
+        "input_pressure_calls": 32
+      }
+    },
+    {
+      "case_name": "sequential_append",
+      "entry": "run",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 1680,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 55440,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 55440,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "sequential_append",
+      "entry": "run_direct",
+      "status": "passed",
+      "checks": [
+        {
+          "output": "query",
+          "elements": 1680,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 55440,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 55440,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "verifier_cpu",
+      "entry": "verifier",
+      "status": "passed",
+      "checks": "outputs must be on the input NPU device"
+    },
+    {
+      "case_name": "verifier_input_alias",
+      "entry": "verifier",
+      "status": "passed",
+      "checks": "output shares storage with input or another output"
+    },
+    {
+      "case_name": "verifier_storage_alias",
+      "entry": "verifier",
+      "status": "passed",
+      "checks": "output shares storage with input or another output"
+    }
+  ],
+  "failed": 0,
+  "total": 171
+}
+
+
+===== SOURCE: descriptor-cache/engineering.exit =====
+0
+
+
+===== SOURCE: descriptor-cache/cache-policy.log =====
+[W1029 04:39:37.312730776 NPUCachingAllocator.cpp:202] Warning: The current CANN and HDK(driver) versions require processing for 32 padding size, with memory allocation. (function operator())
+{
+  "case_name": "T5SplitQkvAppendCache_007_float16_random__cache_policy",
+  "entry": "run",
+  "status": "passed",
+  "checks": {
+    "in_place_input_update": "bitwise_equal",
+    "retained_outputs": 4,
+    "early_input_release": "passed",
+    "stream_switch": "passed",
+    "before": 0,
+    "after": 0
+  }
+}
+{
+  "case_name": "T5SplitQkvAppendCache_017_bfloat16_random__cache_policy",
+  "entry": "run",
+  "status": "passed",
+  "checks": {
+    "in_place_input_update": "bitwise_equal",
+    "retained_outputs": 4,
+    "early_input_release": "passed",
+    "stream_switch": "passed",
+    "before": 0,
+    "after": 0
+  }
+}
+
+
+===== SOURCE: descriptor-cache/cache-policy.json =====
+{
+  "status": "passed",
+  "records": [
+    {
+      "case_name": "T5SplitQkvAppendCache_007_float16_random__cache_policy",
+      "entry": "run",
+      "status": "passed",
+      "checks": {
+        "in_place_input_update": "bitwise_equal",
+        "retained_outputs": 4,
+        "early_input_release": "passed",
+        "stream_switch": "passed",
+        "before": 0,
+        "after": 0
+      }
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_017_bfloat16_random__cache_policy",
+      "entry": "run",
+      "status": "passed",
+      "checks": {
+        "in_place_input_update": "bitwise_equal",
+        "retained_outputs": 4,
+        "early_input_release": "passed",
+        "stream_switch": "passed",
+        "before": 0,
+        "after": 0
+      }
+    }
+  ]
+}
+
+===== SOURCE: descriptor-cache/cache-policy.exit =====
+0
+
+
+===== SOURCE: descriptor-cache/cpp-example.log =====
+{
+  "case": "cpp_length_0",
+  "status": "passed",
+  "workspace": 0
+}
+{
+  "case": "cpp_length_2",
+  "status": "passed",
+  "workspace": 0
+}
+{
+  "case": "cpp_invalid_0",
+  "status": "passed",
+  "acl_status": 561002
+}
+{
+  "case": "cpp_invalid_1",
+  "status": "passed",
+  "acl_status": 561002
+}
+{
+  "case": "cpp_invalid_2",
+  "status": "passed",
+  "acl_status": 561002
+}
+{
+  "case": "cpp_invalid_3",
+  "status": "passed",
+  "acl_status": 561002
+}
+{
+  "case": "cpp_invalid_4",
+  "status": "passed",
+  "acl_status": 561002
+}
+
+
+===== SOURCE: descriptor-cache/cpp-example.exit =====
+0
+
+
+===== SOURCE: integration/integration-accuracy.exit =====
+0
+
+
+===== SOURCE: integration/integration-accuracy.json =====
+{
+  "status": "passed",
+  "npu_executed": true,
+  "cases": [
+    {
+      "case_name": "T5SplitQkvAppendCache_000_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_001_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_002_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 30,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 90,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 90,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_003_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 1680,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 53760,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 53760,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_004_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 390,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 49920,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 49920,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_005_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 512,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 66048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 66048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_006_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 6144,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 3151872,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 3151872,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_007_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 16384,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 33570816,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 33570816,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_008_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1048704,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1048704,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_009_float16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 65664,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 65664,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_010_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_011_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_012_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 30,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 90,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 90,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_013_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 1680,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 53760,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 53760,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_014_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 390,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 49920,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 49920,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_015_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 512,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 66048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 66048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_016_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 6144,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 3151872,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 3151872,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_017_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 16384,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 33570816,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 33570816,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_018_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1048704,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1048704,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_019_bfloat16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 65664,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 65664,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_020_float16_boundary",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_021_float16_boundary",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 32640,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 130560,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 130560,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_022_float16_boundary",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 6,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 24588,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 24588,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_023_bfloat16_boundary",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_024_bfloat16_boundary",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 32640,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 130560,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 130560,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_025_bfloat16_boundary",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 6,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 24588,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 24588,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_026_float16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_027_float16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 256,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097408,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097408,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_028_float16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 1530,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 97920,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 97920,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_029_float16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 256,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 256,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_030_bfloat16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_031_bfloat16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 256,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097408,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097408,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_032_bfloat16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 1530,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 97920,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 97920,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_033_bfloat16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 256,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 256,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_034_float16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 132120576,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 132120576,
+          "bit_mismatches": 0
+        }
+      ]
+    }
+  ]
+}
+
+
+===== SOURCE: integration/integration-accuracy.log =====
+[W1029 04:32:17.903185086 NPUCachingAllocator.cpp:202] Warning: The current CANN and HDK(driver) versions require processing for 32 padding size, with memory allocation. (function operator())
+{
+  "case_name": "T5SplitQkvAppendCache_000_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_001_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_002_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 30,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 90,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 90,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_003_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 1680,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 53760,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 53760,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_004_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 390,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 49920,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 49920,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_005_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 512,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 66048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 66048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_006_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 6144,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 3151872,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 3151872,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_007_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 16384,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 33570816,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 33570816,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_008_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1048704,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1048704,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_009_float16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 65664,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 65664,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_010_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_011_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_012_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 30,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 90,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 90,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_013_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 1680,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 53760,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 53760,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_014_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 390,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 49920,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 49920,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_015_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 512,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 66048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 66048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_016_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 6144,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 3151872,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 3151872,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_017_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 16384,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 33570816,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 33570816,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_018_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1048704,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1048704,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_019_bfloat16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 65664,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 65664,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_020_float16_boundary",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_021_float16_boundary",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 32640,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 130560,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 130560,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_022_float16_boundary",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 6,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 24588,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 24588,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_023_bfloat16_boundary",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_024_bfloat16_boundary",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 32640,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 130560,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 130560,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_025_bfloat16_boundary",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 6,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 24588,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 24588,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_026_float16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_027_float16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 256,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097408,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097408,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_028_float16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 1530,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 97920,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 97920,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_029_float16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 256,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 256,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_030_bfloat16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_031_bfloat16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 256,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097408,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097408,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_032_bfloat16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 1530,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 97920,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 97920,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_033_bfloat16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 256,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 256,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_034_float16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 132120576,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 132120576,
+      "bit_mismatches": 0
+    }
+  ]
+}
+
+
+===== SOURCE: baseline/baseline-accuracy.exit =====
+0
+
+
+===== SOURCE: baseline/baseline-accuracy.json =====
+{
+  "status": "passed",
+  "npu_executed": true,
+  "cases": [
+    {
+      "case_name": "T5SplitQkvAppendCache_000_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_001_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_002_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 30,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 90,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 90,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_003_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 1680,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 53760,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 53760,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_004_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 390,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 49920,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 49920,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_005_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 512,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 66048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 66048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_006_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 6144,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 3151872,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 3151872,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_007_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 16384,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 33570816,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 33570816,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_008_float16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1048704,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1048704,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_009_float16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 65664,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 65664,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_010_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_011_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_012_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 30,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 90,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 90,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_013_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 1680,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 53760,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 53760,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_014_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 390,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 49920,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 49920,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_015_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 512,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 66048,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 66048,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_016_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 6144,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 3151872,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 3151872,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_017_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 16384,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 33570816,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 33570816,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_018_bfloat16_random",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 1048704,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 1048704,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_019_bfloat16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 65664,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 65664,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_020_float16_boundary",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_021_float16_boundary",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 32640,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 130560,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 130560,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_022_float16_boundary",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 6,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 24588,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 24588,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_023_bfloat16_boundary",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_024_bfloat16_boundary",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 32640,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 130560,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 130560,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_025_bfloat16_boundary",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 6,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 24588,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 24588,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_026_float16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_027_float16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 256,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097408,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097408,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_028_float16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 1530,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 97920,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 97920,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_029_float16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 256,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 256,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_030_bfloat16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_031_bfloat16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 256,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 2097408,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 2097408,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_032_bfloat16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 1530,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 97920,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 97920,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_033_bfloat16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 128,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 256,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 256,
+          "bit_mismatches": 0
+        }
+      ]
+    },
+    {
+      "case_name": "T5SplitQkvAppendCache_audit_034_float16_bits",
+      "status": "passed",
+      "outputs": [
+        {
+          "output": "query",
+          "elements": 2097152,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "key",
+          "elements": 132120576,
+          "bit_mismatches": 0
+        },
+        {
+          "output": "value",
+          "elements": 132120576,
+          "bit_mismatches": 0
+        }
+      ]
+    }
+  ]
+}
+
+
+===== SOURCE: baseline/baseline-accuracy.log =====
+[W1029 03:55:56.029711810 NPUCachingAllocator.cpp:202] Warning: The current CANN and HDK(driver) versions require processing for 32 padding size, with memory allocation. (function operator())
+{
+  "case_name": "T5SplitQkvAppendCache_000_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_001_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_002_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 30,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 90,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 90,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_003_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 1680,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 53760,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 53760,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_004_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 390,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 49920,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 49920,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_005_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 512,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 66048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 66048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_006_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 6144,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 3151872,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 3151872,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_007_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 16384,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 33570816,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 33570816,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_008_float16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1048704,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1048704,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_009_float16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 65664,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 65664,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_010_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_011_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_012_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 30,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 90,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 90,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_013_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 1680,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 53760,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 53760,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_014_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 390,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 49920,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 49920,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_015_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 512,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 66048,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 66048,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_016_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 6144,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 3151872,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 3151872,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_017_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 16384,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 33570816,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 33570816,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_018_bfloat16_random",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 1048704,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 1048704,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_019_bfloat16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 65664,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 65664,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_020_float16_boundary",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_021_float16_boundary",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 32640,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 130560,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 130560,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_022_float16_boundary",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 6,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 24588,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 24588,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_023_bfloat16_boundary",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_024_bfloat16_boundary",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 32640,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 130560,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 130560,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_025_bfloat16_boundary",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 6,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 24588,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 24588,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_026_float16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_027_float16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 256,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097408,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097408,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_028_float16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 1530,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 97920,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 97920,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_029_float16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 256,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 256,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_030_bfloat16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_031_bfloat16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 256,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 2097408,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 2097408,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_032_bfloat16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 1530,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 97920,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 97920,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_033_bfloat16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 128,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 256,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 256,
+      "bit_mismatches": 0
+    }
+  ]
+}
+{
+  "case_name": "T5SplitQkvAppendCache_audit_034_float16_bits",
+  "status": "passed",
+  "outputs": [
+    {
+      "output": "query",
+      "elements": 2097152,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "key",
+      "elements": 132120576,
+      "bit_mismatches": 0
+    },
+    {
+      "output": "value",
+      "elements": 132120576,
+      "bit_mismatches": 0
+    }
+  ]
+}
+
